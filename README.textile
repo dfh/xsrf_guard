@@ -2,7 +2,6 @@ h1. Xsrf_guard
 
 A PHP class for Cross-Site Request Forgery (XSRF) protection.
 
-
 h2. Overview
 
 This class offers a simple way of protecting forms against XSRF-attacks.
@@ -10,7 +9,6 @@ This class offers a simple way of protecting forms against XSRF-attacks.
 Looking around for info on protecting against XSRF in PHP, I found an existing class for XSRF protection, written by David Parrish, available at "Github":https://github.com/dparrish/phpxsrfprotect.
 
 This class is pretty similar to above mentioned, but it's a bit more flexible in that it allows hooking in custom callbacks for token generation and validation.
-
 
 h2. Installation and usage
 
@@ -44,11 +42,9 @@ bc.. <form action="" method="post">
   <?= $xsrf_guard->xsrf_guard_field(); ?>
 </form>
 
-
 h2. Known issues
 
 None, so far.
-
 
 h2. Meta
 
