@@ -39,7 +39,7 @@ p. And of course you need to add the XSRF guard field to the form that you wish 
 
 bc.. <form action="" method="post">
   <input type="submit" value="Submit" />
-  <?= $xsrf_guard->xsrf_guard_field(); ?>
+  <?= $xg->xsrf_guard_field(); ?>
 </form>
 
 h2. Known issues
