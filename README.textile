@@ -16,14 +16,13 @@ h2. Installation and usage
 
 Download the source from Github: http://github.com/dfh/xsrf_guard/. Then include it, something like so:
 
-bc..
-<?php
+bc.. <?php
 
 require 'lib/xsrf_guard.php';
 
 p. Basic usage of this class would go something like this:
 
-bc..<?php
+bc.. <?php
 
 $xg = new Xsrf_guard();
 $xg->key( 'topsecret' ); # your unique, secret key
@@ -40,7 +39,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 p. And of course you need to add the XSRF guard field to the form that you wish to protect. This is easiest done by using the method xsrf_guard_field():
 
-bc..<form action="" method="post">
+bc.. <form action="" method="post">
   <input type="submit" value="Submit" />
   <?= $xsrf_guard->xsrf_guard_field(); ?>
 </form>
