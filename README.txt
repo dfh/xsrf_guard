@@ -9,7 +9,7 @@ This class offers a simple way of protecting forms against XSRF-attacks.
 
 Looking around for info on protecting against XSRF in PHP, I found an
 existing class for XSRF protection, written by David Parrish, available at
-Github (https://github.com/dparrish/phpxsrfprotect).
+Github (https://github.com/dparrish/phpxsrfprotect.
 
 This class is pretty similar to above mentioned, but it's a bit more 
 flexible in that it allows hooking in custom callbacks for token generation 
