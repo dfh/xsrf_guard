@@ -48,8 +48,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 And of course you need to add the XSRF guard field to the form that you wish
 to protect. This is easiest done by using the `xsrf_guard_field()` method:
 
-```php
-<?php
+```html
 <form action="" method="post">
 	<input type="submit" value="Submit" />
 	<?= $xsrf_guard->xsrf_guard_field(); ?>
