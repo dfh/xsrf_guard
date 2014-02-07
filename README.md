@@ -15,6 +15,8 @@ GitHub (https://github.com/dparrish/phpxsrfprotect).
 in that it allows hooking in custom callbacks for token generation and
 validation.
 
+See `demo.php` for a small demo.
+
 ## Installation and use
 
 Download the source and include it:
